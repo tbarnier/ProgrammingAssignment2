@@ -60,20 +60,5 @@ cacheSolve <- function(x, ...) {
   x$setsolve(m)
   m
 }
-mat<-matrix(c(1,2,3,4),2,2)
-x<-makeCacheMatrix(mat)
-cacheSolve(x)
-cacheSolve(x)
 
 
-
-makeCacheMatrix <- function(x = matrix()) {
-
-}
-
-
-## Write a short comment describing this function
-
-cacheSolve <- function(x, ...) {
-        ## Return a matrix that is the inverse of 'x'
-}
